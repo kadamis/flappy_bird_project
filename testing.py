@@ -5,7 +5,7 @@ pygame.init()
 W, H = 800, 600
 WIN = pygame.display.set_mode((W,H))
 
-background = pygame.image.load("C:/Users/kosta/OneDrive/Υπολογιστής/Python Files/flappy_bird/images/stage.png")
+background = pygame.image.load("stage.png")
 background = pygame.transform.scale(background,(W,H))
 
 game_sound = pygame.mixer.music.load("sound.wav")
