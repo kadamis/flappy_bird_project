@@ -1,9 +1,12 @@
 import random
+import time
 
 health = 100
 
 counter_1 = 0
 counter_2 = 0
+
+start_time = time.time()
 
 while health > 0:
 
@@ -38,3 +41,5 @@ while health > 0:
 		pass
 
 print(counter_1, counter_2)
+
+print("--- %s seconds ---" % (time.time() - start_time))
