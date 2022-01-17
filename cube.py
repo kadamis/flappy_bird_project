@@ -24,7 +24,7 @@ def solidCube():
 
 def main():
     pygame.init()
-    display = (1024, 720)
+    display = (800, 600)
     pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
 
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
